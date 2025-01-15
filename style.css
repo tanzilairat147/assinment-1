@@ -1,0 +1,275 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+.navbar{
+    display:flex;
+    margin-left: 3%;
+    margin-right:3%;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+#navbar-btn{
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#banner {
+    background-position: center;
+    background-size:cover;
+    background-color: rgb(186, 233, 186);
+    height: 501px;
+    display: flex;
+    justify-content: space-around;
+    padding-left: 80px;
+    padding-right: 80px;
+    margin-left: 3%;
+    margin-right: 3%;
+    border-radius: 10px;
+    
+}
+
+.Banner-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.Banner-content h1 {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 72px;
+    font-weight: 700;
+    color: #000;
+    margin-bottom: 20px;
+}
+
+.subtitel {
+    color: rgb(14, 14, 14);
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0%;
+    margin-bottom: 30px;
+}
+
+.bangladesh {
+    background-color: green;
+    color: white;
+    width: 270px;
+    height: 56px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    padding: 0 20px;
+    transition: background-color 0.3s ease;
+}
+
+.bangladesh:hover {
+    background-color: darkgreen;
+}
+#banner-heading{
+    width: 80%;
+}
+#news-body{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.card{
+    display: flex;
+    justify-content:space-between;
+    border:1px solid black;
+    padding: 40px;
+    align-items: center;
+    border-radius: 20px;
+    background-color: white;
+    margin-top: 10px;
+}
+.card-section{
+    margin-top: 40px;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+.card-contents{
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    gap:8px
+}
+.card-image{
+    border-radius: 20px;
+}
+.card-date{
+    display:flex;
+    gap: 10px;
+}
+#news-image{
+    width: 30%;
+}
+.donate-parent{
+display: flex;
+
+margin-top: 20px;
+justify-content: space-around;
+padding: 10px;
+border-radius: 5px;
+}
+.donate-child{
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color:#ffffff
+}
+#maliha{
+    background-color: rgb(208, 241, 230);
+}
+.donate{
+    margin-left: 3%;
+    margin-right: 3%;
+    
+
+}
+.donate-box{
+    background-color:#ffffff;
+    border:1px solid black;
+    text-align: center;
+    margin-top: 10px;
+    padding: 5px;
+    
+}
+
+
+
+
+
+    
+    
+    
+*{
+    margin:0;
+    padding: 0
+  }
+  body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color:rgb(248, 248, 255)
+  } 
+     .container{
+        text-align: center;
+        padding: 20px;
+     } 
+     .cards{
+        margin-top: 20px;
+        
+        border-radius: 3%;
+       display: flex; 
+       justify-content:space-between;
+       gap: 20px;
+     }
+    
+  
+    
+  
+  
+    .card-size{
+     font-size: 15px;
+  
+    }
+    
+    
+    
+  /*card color*/
+  
+   .blue{
+     background-color: rgba(159, 159, 239, 0.33);
+  width: 32%;
+  text-align: left;
+  padding:  10px;
+  border-radius: 10px;
+  
+  
+  }
+  
+     .green{
+        background-color: rgba(184, 194, 184, 0.645);
+     width: 32%;
+     text-align: left;
+     padding: 10px;
+  border-radius: 10px;
+     }  
+   
+  
+   .burlywood{background-color: rgb(218, 199, 174);
+     width: 32%;
+     text-align: left;
+     padding:  10px;
+     border-radius: 10px;
+  
+   }
+  
+ #vi{
+    margin: 1%;
+    margin-left: 2%;
+ } 
+  
+  
+   #learn-1
+     {background-color: hsl(240, 26%, 69%);
+        padding: 5px;
+        border-radius: 5px;
+     }
+  #learn-2{
+     background-color: rgb(32, 140, 104);
+     padding: 5px;
+     border-radius: 5px;
+  
+  }
+     
+  #learn-3{
+     background-color: rgb(201, 167, 29);
+  padding: 5px;
+  border-radius: 5px;
+  }
+  #bd{
+   font-size: 15px;  
+   flex-direction: column;
+margin: 1%;   padding: 15px;
+  }
+  #day{
+    
+
+border-width: 5px;
+margin-left: 40%;
+padding-top: 2%;
+
+
+  }
+
+  #nation{
+    font-size: 10pxpx;
+margin-top: 1%;
+  padding: 20px;
+  margin-left: 10px; 
+  
+  }
+  
+  
+  #now{
+  margin-left: 45%;
+  margin-block: 2%;
+   padding: 10px 20px;
+      font-size: 16px;
+      cursor: pointer;
+background-color: rgb(15, 118, 53);
+  }
